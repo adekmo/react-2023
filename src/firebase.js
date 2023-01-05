@@ -8,7 +8,6 @@ import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyA1934LhRHNWT2iZiQChH-Xi_gY9FnreIE",
     authDomain: "aniflix-8cd5a.firebaseapp.com",
     projectId: "aniflix-8cd5a",
     storageBucket: "aniflix-8cd5a.appspot.com",
