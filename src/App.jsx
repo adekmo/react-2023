@@ -11,6 +11,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { login, logout, selectUser } from './features/userSlice';
 import Profile from './pages/Profile';
 import Homescreen2 from './pages/Homescreen2';
+import Detail from './pages/Detail';
 
 function App() {
 
@@ -40,8 +41,9 @@ function App() {
     <div className="app">
       <Router>
         {!user ? (<Login />) : (<Routes>
-          <Route path="/profile" element={<Profile />} />
           <Route exact path="/" element={<Homescreen2 />}/>
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/detail/:id" element={<Detail />} />
         </Routes>)}
         
 

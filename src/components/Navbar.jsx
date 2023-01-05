@@ -26,7 +26,7 @@ const Navbar = () => {
             <div className='nav-content'>
                 {/* <img onClick={() => history('/')} className='netflix-logo' src='https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png' alt='netflix' /> */}
                 <p onClick={() => history('/')} className='netflix-logo'>ANIFLIX</p>
-                <img onClick={() => history('/profile')} className='net-avatar' src='https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png' alt='avatar' />
+                <img onClick={() => history('/profile')} className='net-avatar' src='https://images.pexels.com/photos/4808517/pexels-photo-4808517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='avatar' />
             </div>
         </div>
     )

@@ -13,9 +13,10 @@ const Homescreen2 = () => {
             <Banner />
 
             {/* Row */}
-            <Row title="Popular" fetchUrl="popular" isLargeRow />
-            <Row title="New Episode" fetchUrl="recent-release" />
-            <Row title="Categories" fetchUrl="genre/sports" />
+            <Row title="New Episode" fetchUrl="recent-release" isLargeRow />
+            <Row title="Popular" fetchUrl="popular" />
+            <Row title="Sports" fetchUrl="genre/sports" />
+            <Row title="Comedy" fetchUrl="genre/comedy" />
             <Row title="Movies" fetchUrl="anime-movies" />
 
         </div>
